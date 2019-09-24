@@ -1,0 +1,48 @@
+html {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 10pt;
+    min-height: 100%;
+}
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    background-color: #241e1c;
+    color: #aea37c;
+}
+a {
+    color: #aea37c;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+}
+
+.content {
+    padding: 0 5vw;
+}
+
+h1 {
+    margin: 3rem 0;
+    font-size: 2rem;
+    line-height: 1.8;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    font-size: 1.5rem;
+}
+
+@media (max-width: 400px) {
+    h1 {
+        font-size: 1.7rem;
+    }
+}
